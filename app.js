@@ -1,4 +1,9 @@
-var add = (function (num1, num2) { return num1 + num2; });
-var num1 = 5;
-var num2 = 5;
-console.log(add(num1, num2));
+var a;
+(function (a) {
+    a[a["active"] = 0] = "active";
+    a[a["pasive"] = 1] = "pasive";
+    a[a["jas"] = 2] = "jas";
+    a[a["ead"] = 3] = "ead";
+    a[a["onbord"] = 4] = "onbord";
+})(a || (a = {}));
+console.log(a.onbord);
