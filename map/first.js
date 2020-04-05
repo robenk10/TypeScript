@@ -15,3 +15,8 @@ for (let [key, value] of mymap.entries()) {
         console.log(key + "   " + value.id + " " + value.dname + " " + value.listofstudent);
     }
 }
+let cha;
+cha = ["ron", 1, true];
+for (let ah of cha) {
+    console.log(ah.valueOf());
+}

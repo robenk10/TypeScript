@@ -1,3 +1,4 @@
+"use strict";
 console.log("helloworld");
 function Add(n1, n2, showresult) {
     //console.log(typeof n1)

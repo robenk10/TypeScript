@@ -1,6 +1,8 @@
 "use strict";
-exports.__esModule = true;
-var app_1 = require("./app");
-var firstBrick = new app_1.Brick();
-exports["default"] = firstBrick;
-"";
+var __importDefault = (this && this.__importDefault) || function (mod) {
+    return (mod && mod.__esModule) ? mod : { "default": mod };
+};
+Object.defineProperty(exports, "__esModule", { value: true });
+var BrickDemo_1 = __importDefault(require("./BrickDemo"));
+var firstBrick = new BrickDemo_1.default();
+exports.default = firstBrick;

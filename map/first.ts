@@ -1,7 +1,8 @@
 class department{
     id:number;
-    dname:String;
+    dname:string;
     listofstudent:number;
+   
 
     constructor(id:number,dname:string,listofstudent:number){
      this.id=id;
@@ -24,3 +25,8 @@ for(let [key,value] of mymap.entries()){
   console.log(key+"   "+value.id+" "+value.dname+" "+value.listofstudent)
     }
 }
+let cha: [string, number];  
+ cha =["ron",true];
+ for(let ah of cha){
+   console.log(ah.valueOf());
+ }

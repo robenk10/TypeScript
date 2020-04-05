@@ -1,3 +1,4 @@
+"use strict";
 var a;
 (function (a) {
     a[a["active"] = 0] = "active";
