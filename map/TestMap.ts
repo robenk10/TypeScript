@@ -14,6 +14,6 @@ for (let value of ageMapping.values()) {
 }  
 console.log("The Map Enteries are: ");   
 //Iterate over map entries  
-for (let entry of ageMapping.entries()) {  
-    console.log(entry[0], entry[1]);   
+for (let [key ,value] of ageMapping.entries()) {  
+    console.log(key ,value);   
 }  
